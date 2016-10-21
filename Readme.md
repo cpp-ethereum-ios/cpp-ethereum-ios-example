@@ -16,5 +16,9 @@ This app shows how to integrate the [unofficial port of C++ Ethereum][1] in an i
 * It will report connection errors with all peers when run on the simulator.
 * It crashes immediately when run on a real device because it cannot write to the .ethereum directory.
 
+### License
+The example code in this repository is licensed under an MIT license (see `License` file). The license for C++ Ethereum itself can be found in [its repository][3].
+
 [1]: https://github.com/cpp-ethereum-ios/cpp-ethereum-ios
 [2]: https://cocoapods.org
+[3]: https://github.com/ethereum/cpp-ethereum
