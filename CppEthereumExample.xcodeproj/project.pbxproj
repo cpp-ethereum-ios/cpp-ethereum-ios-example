@@ -12,6 +12,7 @@
 		5CE00AC71DBA3F6900655577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE00AC51DBA3F6900655577 /* Main.storyboard */; };
 		5CE00AC91DBA3F6900655577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE00AC81DBA3F6900655577 /* Assets.xcassets */; };
 		5CE00ACC1DBA3F6900655577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE00ACA1DBA3F6900655577 /* LaunchScreen.storyboard */; };
+		5CE00AD61DBA416400655577 /* Ethereum.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CE00AD51DBA416400655577 /* Ethereum.mm */; };
 		80DCE901A7D960453CB73C88 /* libPods-CppEthereumExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D5CA215BCEE57BDE77533E /* libPods-CppEthereumExample.a */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,9 @@
 		5CE00AC81DBA3F6900655577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CE00ACB1DBA3F6900655577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CE00ACD1DBA3F6900655577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE00AD31DBA416300655577 /* CppEthereumExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CppEthereumExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		5CE00AD41DBA416400655577 /* Ethereum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ethereum.h; sourceTree = "<group>"; };
+		5CE00AD51DBA416400655577 /* Ethereum.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Ethereum.mm; sourceTree = "<group>"; };
 		B9CADB1D8C55F287F77047E3 /* Pods-CppEthereumExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CppEthereumExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CppEthereumExample/Pods-CppEthereumExample.debug.xcconfig"; sourceTree = "<group>"; };
 		F1D5CA215BCEE57BDE77533E /* libPods-CppEthereumExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CppEthereumExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -67,6 +71,9 @@
 				5CE00AC81DBA3F6900655577 /* Assets.xcassets */,
 				5CE00ACA1DBA3F6900655577 /* LaunchScreen.storyboard */,
 				5CE00ACD1DBA3F6900655577 /* Info.plist */,
+				5CE00AD41DBA416400655577 /* Ethereum.h */,
+				5CE00AD51DBA416400655577 /* Ethereum.mm */,
+				5CE00AD31DBA416300655577 /* CppEthereumExample-Bridging-Header.h */,
 			);
 			path = CppEthereumExample;
 			sourceTree = "<group>";
@@ -123,6 +130,7 @@
 				TargetAttributes = {
 					5CE00ABD1DBA3F6900655577 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -212,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CE00AC41DBA3F6900655577 /* ViewController.swift in Sources */,
+				5CE00AD61DBA416400655577 /* Ethereum.mm in Sources */,
 				5CE00AC21DBA3F6900655577 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,10 +345,13 @@
 			baseConfigurationReference = B9CADB1D8C55F287F77047E3 /* Pods-CppEthereumExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CppEthereumExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.CppEthereumIos.CppEthereumExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CppEthereumExample/CppEthereumExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -349,10 +361,12 @@
 			baseConfigurationReference = 0C9A9305C1A987E953BC7B13 /* Pods-CppEthereumExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CppEthereumExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.CppEthereumIos.CppEthereumExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CppEthereumExample/CppEthereumExample-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
