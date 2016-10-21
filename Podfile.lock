@@ -1,0 +1,239 @@
+PODS:
+  - Apple-Boost (1.61.0.1)
+  - cpp-ethereum (1.4.pre.5):
+    - Apple-Boost (~> 1.6)
+    - cpp-ethereum/eth (= 1.4.pre.5)
+    - Cryptopp (~> 5.7.pre)
+    - GMP-iOS (~> 6.1)
+    - JsonCpp (~> 1.7)
+    - leveldb (~> 1.18)
+    - libjson-rpc-cpp (~> 0.6)
+    - libmicrohttpd-iOS (~> 0.9)
+    - miniupnp (~> 2.0)
+  - cpp-ethereum/buildinfo (1.4.pre.5):
+    - Apple-Boost (~> 1.6)
+    - Cryptopp (~> 5.7.pre)
+    - GMP-iOS (~> 6.1)
+    - JsonCpp (~> 1.7)
+    - leveldb (~> 1.18)
+    - libjson-rpc-cpp (~> 0.6)
+    - libmicrohttpd-iOS (~> 0.9)
+    - miniupnp (~> 2.0)
+  - cpp-ethereum/eth (1.4.pre.5):
+    - Apple-Boost (~> 1.6)
+    - cpp-ethereum/ethminer
+    - cpp-ethereum/libethashseal
+    - cpp-ethereum/libethcore
+    - cpp-ethereum/libethereum
+    - cpp-ethereum/libevm
+    - cpp-ethereum/libweb3jsonrpc
+    - cpp-ethereum/libwebthree
+    - Cryptopp (~> 5.7.pre)
+    - GMP-iOS (~> 6.1)
+    - JsonCpp (~> 1.7)
+    - leveldb (~> 1.18)
+    - libjson-rpc-cpp (~> 0.6)
+    - libmicrohttpd-iOS (~> 0.9)
+    - miniupnp (~> 2.0)
+  - cpp-ethereum/ethminer (1.4.pre.5):
+    - Apple-Boost (~> 1.6)
+    - cpp-ethereum/libdevcore
+    - cpp-ethereum/libethashseal
+    - cpp-ethereum/libethcore
+    - Cryptopp (~> 5.7.pre)
+    - GMP-iOS (~> 6.1)
+    - JsonCpp (~> 1.7)
+    - leveldb (~> 1.18)
+    - libjson-rpc-cpp (~> 0.6)
+    - libmicrohttpd-iOS (~> 0.9)
+    - miniupnp (~> 2.0)
+  - cpp-ethereum/json_spirit (1.4.pre.5):
+    - Apple-Boost (~> 1.6)
+    - Cryptopp (~> 5.7.pre)
+    - GMP-iOS (~> 6.1)
+    - JsonCpp (~> 1.7)
+    - leveldb (~> 1.18)
+    - libjson-rpc-cpp (~> 0.6)
+    - libmicrohttpd-iOS (~> 0.9)
+    - miniupnp (~> 2.0)
+  - cpp-ethereum/libdevcore (1.4.pre.5):
+    - Apple-Boost (~> 1.6)
+    - cpp-ethereum/buildinfo
+    - Cryptopp (~> 5.7.pre)
+    - GMP-iOS (~> 6.1)
+    - JsonCpp (~> 1.7)
+    - leveldb (~> 1.18)
+    - libjson-rpc-cpp (~> 0.6)
+    - libmicrohttpd-iOS (~> 0.9)
+    - miniupnp (~> 2.0)
+  - cpp-ethereum/libdevcrypto (1.4.pre.5):
+    - Apple-Boost (~> 1.6)
+    - cpp-ethereum/json_spirit
+    - cpp-ethereum/libdevcore
+    - cpp-ethereum/libscrypt
+    - Cryptopp (~> 5.7.pre)
+    - GMP-iOS (~> 6.1)
+    - JsonCpp (~> 1.7)
+    - leveldb (~> 1.18)
+    - libjson-rpc-cpp (~> 0.6)
+    - libmicrohttpd-iOS (~> 0.9)
+    - miniupnp (~> 2.0)
+  - cpp-ethereum/libethash (1.4.pre.5):
+    - Apple-Boost (~> 1.6)
+    - Cryptopp (~> 5.7.pre)
+    - GMP-iOS (~> 6.1)
+    - JsonCpp (~> 1.7)
+    - leveldb (~> 1.18)
+    - libjson-rpc-cpp (~> 0.6)
+    - libmicrohttpd-iOS (~> 0.9)
+    - miniupnp (~> 2.0)
+  - cpp-ethereum/libethashseal (1.4.pre.5):
+    - Apple-Boost (~> 1.6)
+    - cpp-ethereum/libdevcore
+    - cpp-ethereum/libethash
+    - cpp-ethereum/libethcore
+    - Cryptopp (~> 5.7.pre)
+    - GMP-iOS (~> 6.1)
+    - JsonCpp (~> 1.7)
+    - leveldb (~> 1.18)
+    - libjson-rpc-cpp (~> 0.6)
+    - libmicrohttpd-iOS (~> 0.9)
+    - miniupnp (~> 2.0)
+  - cpp-ethereum/libethcore (1.4.pre.5):
+    - Apple-Boost (~> 1.6)
+    - cpp-ethereum/libethereum+libethcore+libevm
+    - Cryptopp (~> 5.7.pre)
+    - GMP-iOS (~> 6.1)
+    - JsonCpp (~> 1.7)
+    - leveldb (~> 1.18)
+    - libjson-rpc-cpp (~> 0.6)
+    - libmicrohttpd-iOS (~> 0.9)
+    - miniupnp (~> 2.0)
+  - cpp-ethereum/libethereum (1.4.pre.5):
+    - Apple-Boost (~> 1.6)
+    - cpp-ethereum/libethereum+libethcore+libevm
+    - Cryptopp (~> 5.7.pre)
+    - GMP-iOS (~> 6.1)
+    - JsonCpp (~> 1.7)
+    - leveldb (~> 1.18)
+    - libjson-rpc-cpp (~> 0.6)
+    - libmicrohttpd-iOS (~> 0.9)
+    - miniupnp (~> 2.0)
+  - cpp-ethereum/libethereum+libethcore+libevm (1.4.pre.5):
+    - Apple-Boost (~> 1.6)
+    - cpp-ethereum/libdevcore
+    - cpp-ethereum/libdevcrypto
+    - cpp-ethereum/libevmcore
+    - cpp-ethereum/libp2p
+    - Cryptopp (~> 5.7.pre)
+    - GMP-iOS (~> 6.1)
+    - JsonCpp (~> 1.7)
+    - leveldb (~> 1.18)
+    - libjson-rpc-cpp (~> 0.6)
+    - libmicrohttpd-iOS (~> 0.9)
+    - miniupnp (~> 2.0)
+  - cpp-ethereum/libevm (1.4.pre.5):
+    - Apple-Boost (~> 1.6)
+    - cpp-ethereum/libethereum+libethcore+libevm
+    - Cryptopp (~> 5.7.pre)
+    - GMP-iOS (~> 6.1)
+    - JsonCpp (~> 1.7)
+    - leveldb (~> 1.18)
+    - libjson-rpc-cpp (~> 0.6)
+    - libmicrohttpd-iOS (~> 0.9)
+    - miniupnp (~> 2.0)
+  - cpp-ethereum/libevmcore (1.4.pre.5):
+    - Apple-Boost (~> 1.6)
+    - cpp-ethereum/libdevcore
+    - Cryptopp (~> 5.7.pre)
+    - GMP-iOS (~> 6.1)
+    - JsonCpp (~> 1.7)
+    - leveldb (~> 1.18)
+    - libjson-rpc-cpp (~> 0.6)
+    - libmicrohttpd-iOS (~> 0.9)
+    - miniupnp (~> 2.0)
+  - cpp-ethereum/libp2p (1.4.pre.5):
+    - Apple-Boost (~> 1.6)
+    - cpp-ethereum/libdevcore
+    - cpp-ethereum/libdevcrypto
+    - Cryptopp (~> 5.7.pre)
+    - GMP-iOS (~> 6.1)
+    - JsonCpp (~> 1.7)
+    - leveldb (~> 1.18)
+    - libjson-rpc-cpp (~> 0.6)
+    - libmicrohttpd-iOS (~> 0.9)
+    - miniupnp (~> 2.0)
+  - cpp-ethereum/libscrypt (1.4.pre.5):
+    - Apple-Boost (~> 1.6)
+    - Cryptopp (~> 5.7.pre)
+    - GMP-iOS (~> 6.1)
+    - JsonCpp (~> 1.7)
+    - leveldb (~> 1.18)
+    - libjson-rpc-cpp (~> 0.6)
+    - libmicrohttpd-iOS (~> 0.9)
+    - miniupnp (~> 2.0)
+  - cpp-ethereum/libweb3jsonrpc (1.4.pre.5):
+    - Apple-Boost (~> 1.6)
+    - cpp-ethereum/libwebthree
+    - cpp-ethereum/libwhisper
+    - Cryptopp (~> 5.7.pre)
+    - GMP-iOS (~> 6.1)
+    - JsonCpp (~> 1.7)
+    - leveldb (~> 1.18)
+    - libjson-rpc-cpp (~> 0.6)
+    - libmicrohttpd-iOS (~> 0.9)
+    - miniupnp (~> 2.0)
+  - cpp-ethereum/libwebthree (1.4.pre.5):
+    - Apple-Boost (~> 1.6)
+    - cpp-ethereum/libdevcore
+    - cpp-ethereum/libethashseal
+    - cpp-ethereum/libethcore
+    - cpp-ethereum/libwhisper
+    - Cryptopp (~> 5.7.pre)
+    - GMP-iOS (~> 6.1)
+    - JsonCpp (~> 1.7)
+    - leveldb (~> 1.18)
+    - libjson-rpc-cpp (~> 0.6)
+    - libmicrohttpd-iOS (~> 0.9)
+    - miniupnp (~> 2.0)
+  - cpp-ethereum/libwhisper (1.4.pre.5):
+    - Apple-Boost (~> 1.6)
+    - cpp-ethereum/libdevcore
+    - cpp-ethereum/libp2p
+    - Cryptopp (~> 5.7.pre)
+    - GMP-iOS (~> 6.1)
+    - JsonCpp (~> 1.7)
+    - leveldb (~> 1.18)
+    - libjson-rpc-cpp (~> 0.6)
+    - libmicrohttpd-iOS (~> 0.9)
+    - miniupnp (~> 2.0)
+  - Cryptopp (5.7.pre.0)
+  - GMP-iOS (6.1.1.6)
+  - JsonCpp (1.7.4.0)
+  - leveldb (1.18)
+  - libcurl-ios (7.50.3.3)
+  - libjson-rpc-cpp (0.6.0.2):
+    - JsonCpp (~> 1.7)
+    - libcurl-ios (~> 7.50)
+    - libmicrohttpd-iOS (~> 0.9)
+  - libmicrohttpd-iOS (0.9.50.3)
+  - miniupnp (2.0.0.2)
+
+DEPENDENCIES:
+  - cpp-ethereum (~> 1.4.pre)
+
+SPEC CHECKSUMS:
+  Apple-Boost: c7b3ff2eea8380a15f0e381b9acfcbc65941543e
+  cpp-ethereum: d190be34ee2ce6d00bf91b6a3e5d4c7e0ac3fe75
+  Cryptopp: 4bb7928853edc9de033e0eac920ca94e8137bc66
+  GMP-iOS: a1930f753293928a05a3775bdf2695d0bbe4d96f
+  JsonCpp: c1d45bef2b338641dd86f9ccf96aea6e754738d3
+  leveldb: 06059c65d8480c7775ebca4fd556f49f1a655ce2
+  libcurl-ios: 86a3d2210be47053377b0a8264e69728b10be92c
+  libjson-rpc-cpp: 742b8351007d43b1d0fab75e8ea656e653f5c3ac
+  libmicrohttpd-iOS: f886f9990edc8929c03b8d5e42ddf59d3c4baf0c
+  miniupnp: 9f75028b95bb61b744de1b86b7ab762d587c05c9
+
+PODFILE CHECKSUM: b8cb463b529c931fdbaf71932230a84b1ddb4c7e
+
+COCOAPODS: 1.1.1

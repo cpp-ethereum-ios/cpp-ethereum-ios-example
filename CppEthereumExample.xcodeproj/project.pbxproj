@@ -12,9 +12,11 @@
 		5CE00AC71DBA3F6900655577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE00AC51DBA3F6900655577 /* Main.storyboard */; };
 		5CE00AC91DBA3F6900655577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE00AC81DBA3F6900655577 /* Assets.xcassets */; };
 		5CE00ACC1DBA3F6900655577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE00ACA1DBA3F6900655577 /* LaunchScreen.storyboard */; };
+		80DCE901A7D960453CB73C88 /* libPods-CppEthereumExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D5CA215BCEE57BDE77533E /* libPods-CppEthereumExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C9A9305C1A987E953BC7B13 /* Pods-CppEthereumExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CppEthereumExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CppEthereumExample/Pods-CppEthereumExample.release.xcconfig"; sourceTree = "<group>"; };
 		5CE00ABE1DBA3F6900655577 /* CppEthereumExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CppEthereumExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE00AC11DBA3F6900655577 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CE00AC31DBA3F6900655577 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		5CE00AC81DBA3F6900655577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CE00ACB1DBA3F6900655577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CE00ACD1DBA3F6900655577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9CADB1D8C55F287F77047E3 /* Pods-CppEthereumExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CppEthereumExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CppEthereumExample/Pods-CppEthereumExample.debug.xcconfig"; sourceTree = "<group>"; };
+		F1D5CA215BCEE57BDE77533E /* libPods-CppEthereumExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CppEthereumExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80DCE901A7D960453CB73C88 /* libPods-CppEthereumExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				5CE00AC01DBA3F6900655577 /* CppEthereumExample */,
 				5CE00ABF1DBA3F6900655577 /* Products */,
+				A5A31F3C434897FF861E53C1 /* Pods */,
+				6994DF475C9F6158C5858EFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = CppEthereumExample;
 			sourceTree = "<group>";
 		};
+		6994DF475C9F6158C5858EFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1D5CA215BCEE57BDE77533E /* libPods-CppEthereumExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5A31F3C434897FF861E53C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9CADB1D8C55F287F77047E3 /* Pods-CppEthereumExample.debug.xcconfig */,
+				0C9A9305C1A987E953BC7B13 /* Pods-CppEthereumExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CE00AD01DBA3F6900655577 /* Build configuration list for PBXNativeTarget "CppEthereumExample" */;
 			buildPhases = (
+				B64F3CA52C6AC4E537781F33 /* [CP] Check Pods Manifest.lock */,
 				5CE00ABA1DBA3F6900655577 /* Sources */,
 				5CE00ABB1DBA3F6900655577 /* Frameworks */,
 				5CE00ABC1DBA3F6900655577 /* Resources */,
+				10412EDE0B79853A77F77919 /* [CP] Embed Pods Frameworks */,
+				0C17E49EE56E8E6692F2410F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C17E49EE56E8E6692F2410F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CppEthereumExample/Pods-CppEthereumExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10412EDE0B79853A77F77919 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CppEthereumExample/Pods-CppEthereumExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B64F3CA52C6AC4E537781F33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5CE00ABA1DBA3F6900655577 /* Sources */ = {
@@ -258,6 +333,7 @@
 		};
 		5CE00AD11DBA3F6900655577 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9CADB1D8C55F287F77047E3 /* Pods-CppEthereumExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CppEthereumExample/Info.plist;
@@ -270,6 +346,7 @@
 		};
 		5CE00AD21DBA3F6900655577 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C9A9305C1A987E953BC7B13 /* Pods-CppEthereumExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CppEthereumExample/Info.plist;
@@ -299,6 +376,7 @@
 				5CE00AD21DBA3F6900655577 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
