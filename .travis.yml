@@ -1,5 +1,0 @@
-language: objective-c
-osx_image: xcode8
-xcode_workspace: CppEthereumExample.xcworkspace
-xcode_scheme: CppEthereumExample
-install: travis_wait 120 pod install
