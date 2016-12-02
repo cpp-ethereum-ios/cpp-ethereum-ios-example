@@ -1,8 +1,8 @@
 PODS:
   - Apple-Boost (1.61.0.1)
-  - cpp-ethereum (1.4.pre.7):
+  - cpp-ethereum (1.4.pre.8):
     - Apple-Boost (~> 1.6)
-    - cpp-ethereum/eth (= 1.4.pre.7)
+    - cpp-ethereum/eth (= 1.4.pre.8)
     - Cryptopp (~> 5.6.4.0)
     - GMP-iOS (~> 6.1)
     - JsonCpp (~> 1.7)
@@ -10,7 +10,7 @@ PODS:
     - libjson-rpc-cpp (~> 0.6)
     - libmicrohttpd-iOS (~> 0.9)
     - miniupnp (~> 2.0)
-  - cpp-ethereum/buildinfo (1.4.pre.7):
+  - cpp-ethereum/buildinfo (1.4.pre.8):
     - Apple-Boost (~> 1.6)
     - Cryptopp (~> 5.6.4.0)
     - GMP-iOS (~> 6.1)
@@ -19,7 +19,7 @@ PODS:
     - libjson-rpc-cpp (~> 0.6)
     - libmicrohttpd-iOS (~> 0.9)
     - miniupnp (~> 2.0)
-  - cpp-ethereum/eth (1.4.pre.7):
+  - cpp-ethereum/eth (1.4.pre.8):
     - Apple-Boost (~> 1.6)
     - cpp-ethereum/ethminer
     - cpp-ethereum/libethashseal
@@ -35,7 +35,7 @@ PODS:
     - libjson-rpc-cpp (~> 0.6)
     - libmicrohttpd-iOS (~> 0.9)
     - miniupnp (~> 2.0)
-  - cpp-ethereum/ethminer (1.4.pre.7):
+  - cpp-ethereum/ethminer (1.4.pre.8):
     - Apple-Boost (~> 1.6)
     - cpp-ethereum/libdevcore
     - cpp-ethereum/libethashseal
@@ -47,7 +47,7 @@ PODS:
     - libjson-rpc-cpp (~> 0.6)
     - libmicrohttpd-iOS (~> 0.9)
     - miniupnp (~> 2.0)
-  - cpp-ethereum/json_spirit (1.4.pre.7):
+  - cpp-ethereum/json_spirit (1.4.pre.8):
     - Apple-Boost (~> 1.6)
     - Cryptopp (~> 5.6.4.0)
     - GMP-iOS (~> 6.1)
@@ -56,7 +56,7 @@ PODS:
     - libjson-rpc-cpp (~> 0.6)
     - libmicrohttpd-iOS (~> 0.9)
     - miniupnp (~> 2.0)
-  - cpp-ethereum/libdevcore (1.4.pre.7):
+  - cpp-ethereum/libdevcore (1.4.pre.8):
     - Apple-Boost (~> 1.6)
     - cpp-ethereum/buildinfo
     - Cryptopp (~> 5.6.4.0)
@@ -66,7 +66,7 @@ PODS:
     - libjson-rpc-cpp (~> 0.6)
     - libmicrohttpd-iOS (~> 0.9)
     - miniupnp (~> 2.0)
-  - cpp-ethereum/libdevcrypto (1.4.pre.7):
+  - cpp-ethereum/libdevcrypto (1.4.pre.8):
     - Apple-Boost (~> 1.6)
     - cpp-ethereum/json_spirit
     - cpp-ethereum/libdevcore
@@ -78,7 +78,7 @@ PODS:
     - libjson-rpc-cpp (~> 0.6)
     - libmicrohttpd-iOS (~> 0.9)
     - miniupnp (~> 2.0)
-  - cpp-ethereum/libethash (1.4.pre.7):
+  - cpp-ethereum/libethash (1.4.pre.8):
     - Apple-Boost (~> 1.6)
     - Cryptopp (~> 5.6.4.0)
     - GMP-iOS (~> 6.1)
@@ -87,7 +87,7 @@ PODS:
     - libjson-rpc-cpp (~> 0.6)
     - libmicrohttpd-iOS (~> 0.9)
     - miniupnp (~> 2.0)
-  - cpp-ethereum/libethashseal (1.4.pre.7):
+  - cpp-ethereum/libethashseal (1.4.pre.8):
     - Apple-Boost (~> 1.6)
     - cpp-ethereum/libdevcore
     - cpp-ethereum/libethash
@@ -99,7 +99,7 @@ PODS:
     - libjson-rpc-cpp (~> 0.6)
     - libmicrohttpd-iOS (~> 0.9)
     - miniupnp (~> 2.0)
-  - cpp-ethereum/libethcore (1.4.pre.7):
+  - cpp-ethereum/libethcore (1.4.pre.8):
     - Apple-Boost (~> 1.6)
     - cpp-ethereum/libethereum+libethcore+libevm
     - Cryptopp (~> 5.6.4.0)
@@ -109,7 +109,7 @@ PODS:
     - libjson-rpc-cpp (~> 0.6)
     - libmicrohttpd-iOS (~> 0.9)
     - miniupnp (~> 2.0)
-  - cpp-ethereum/libethereum (1.4.pre.7):
+  - cpp-ethereum/libethereum (1.4.pre.8):
     - Apple-Boost (~> 1.6)
     - cpp-ethereum/libethereum+libethcore+libevm
     - Cryptopp (~> 5.6.4.0)
@@ -119,7 +119,7 @@ PODS:
     - libjson-rpc-cpp (~> 0.6)
     - libmicrohttpd-iOS (~> 0.9)
     - miniupnp (~> 2.0)
-  - cpp-ethereum/libethereum+libethcore+libevm (1.4.pre.7):
+  - cpp-ethereum/libethereum+libethcore+libevm (1.4.pre.8):
     - Apple-Boost (~> 1.6)
     - cpp-ethereum/libdevcore
     - cpp-ethereum/libdevcrypto
@@ -132,7 +132,7 @@ PODS:
     - libjson-rpc-cpp (~> 0.6)
     - libmicrohttpd-iOS (~> 0.9)
     - miniupnp (~> 2.0)
-  - cpp-ethereum/libevm (1.4.pre.7):
+  - cpp-ethereum/libevm (1.4.pre.8):
     - Apple-Boost (~> 1.6)
     - cpp-ethereum/libethereum+libethcore+libevm
     - Cryptopp (~> 5.6.4.0)
@@ -142,7 +142,7 @@ PODS:
     - libjson-rpc-cpp (~> 0.6)
     - libmicrohttpd-iOS (~> 0.9)
     - miniupnp (~> 2.0)
-  - cpp-ethereum/libevmcore (1.4.pre.7):
+  - cpp-ethereum/libevmcore (1.4.pre.8):
     - Apple-Boost (~> 1.6)
     - cpp-ethereum/libdevcore
     - Cryptopp (~> 5.6.4.0)
@@ -152,7 +152,7 @@ PODS:
     - libjson-rpc-cpp (~> 0.6)
     - libmicrohttpd-iOS (~> 0.9)
     - miniupnp (~> 2.0)
-  - cpp-ethereum/libp2p (1.4.pre.7):
+  - cpp-ethereum/libp2p (1.4.pre.8):
     - Apple-Boost (~> 1.6)
     - cpp-ethereum/libdevcore
     - cpp-ethereum/libdevcrypto
@@ -163,7 +163,7 @@ PODS:
     - libjson-rpc-cpp (~> 0.6)
     - libmicrohttpd-iOS (~> 0.9)
     - miniupnp (~> 2.0)
-  - cpp-ethereum/libscrypt (1.4.pre.7):
+  - cpp-ethereum/libscrypt (1.4.pre.8):
     - Apple-Boost (~> 1.6)
     - Cryptopp (~> 5.6.4.0)
     - GMP-iOS (~> 6.1)
@@ -172,7 +172,7 @@ PODS:
     - libjson-rpc-cpp (~> 0.6)
     - libmicrohttpd-iOS (~> 0.9)
     - miniupnp (~> 2.0)
-  - cpp-ethereum/libweb3jsonrpc (1.4.pre.7):
+  - cpp-ethereum/libweb3jsonrpc (1.4.pre.8):
     - Apple-Boost (~> 1.6)
     - cpp-ethereum/libwebthree
     - cpp-ethereum/libwhisper
@@ -183,7 +183,7 @@ PODS:
     - libjson-rpc-cpp (~> 0.6)
     - libmicrohttpd-iOS (~> 0.9)
     - miniupnp (~> 2.0)
-  - cpp-ethereum/libwebthree (1.4.pre.7):
+  - cpp-ethereum/libwebthree (1.4.pre.8):
     - Apple-Boost (~> 1.6)
     - cpp-ethereum/libdevcore
     - cpp-ethereum/libethashseal
@@ -196,7 +196,7 @@ PODS:
     - libjson-rpc-cpp (~> 0.6)
     - libmicrohttpd-iOS (~> 0.9)
     - miniupnp (~> 2.0)
-  - cpp-ethereum/libwhisper (1.4.pre.7):
+  - cpp-ethereum/libwhisper (1.4.pre.8):
     - Apple-Boost (~> 1.6)
     - cpp-ethereum/libdevcore
     - cpp-ethereum/libp2p
@@ -224,7 +224,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Apple-Boost: c7b3ff2eea8380a15f0e381b9acfcbc65941543e
-  cpp-ethereum: fe784995cb73e7ddceb7066da5aa53c50325a3ed
+  cpp-ethereum: 0a9788c3ba037cb47d573aae264b61892b4589dc
   Cryptopp: a3935058e0692a7b32c5e79eb848b9be195d4dd2
   GMP-iOS: a1930f753293928a05a3775bdf2695d0bbe4d96f
   JsonCpp: c1d45bef2b338641dd86f9ccf96aea6e754738d3
